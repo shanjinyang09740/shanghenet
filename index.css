@@ -1,0 +1,275 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #BFE449;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+/*top部分B*/
+.top {
+	height: 62px;
+	width: 100%;
+	background: #FFFFFF;
+	/*background: red;*/
+	border-bottom: 1px solid #E1E1E1;
+}
+.top-box {
+	width: 979px;
+	height: 100%;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.top-box-l {
+	height: 27px;
+	width: 179px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 18px;
+	background-image: url(images/logo.png);
+}
+.top-box-r {
+	width: 200px;
+	height: 33px;
+	/*background: green;*/
+	float: right;
+	margin-right: 8px;
+	margin-top: 18px;
+}
+/*top部分E*/
+
+/*nav部分B*/
+.nav {
+	height: 55px;
+	background: #C6C6C6 url(images/navbac.png) repeat-x;
+	;
+} 
+.nav-main {
+	width: 979px;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.nav-main li {
+	width: 130px;
+	height: 55px;
+	line-height: 55px;
+	float: left;
+	background: url(images/navbac-line.png) no-repeat right;
+	text-align: center;
+
+}
+.nav-main li a {
+	color: #000000;
+	font: 14px/55px "微软雅黑";
+}
+.nav-main a:hover {
+	text-decoration: underline;
+	color: #BFE449;
+}
+/*nav部分E*/
+
+/*banner部分B*/
+.banner {
+	height: 659px;
+	width: 979px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+/*banner部分E*/
+
+/*最新公告部分B*/
+.news {
+	height: 30px;
+	background: #FBFBFB;
+	/*background: red;*/
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+}
+.news-box {
+	height: 100%;
+	width: 979px;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.news-box-l {
+	width: 415px;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	margin-top: 7px;
+
+}
+.news-box-l p {
+	font: 12px "微软雅黑";
+	float: left;
+}
+.news-box-l p a {
+	color: #000000;
+}
+.news-box-l p a:hover {
+	text-decoration: underline;
+	color: #BFE449;
+}
+.news-box-r {
+	height: 20px;
+	width: 88px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+/*最新公告部分E*/
+
+/*content部分B*/
+.content {
+	width: 978px;
+	height: 224px;
+	/*background: red;*/
+	margin: 14px auto 50px auto;
+}
+.content-l {
+	width: 310px;
+	height: 224px;
+	border: 1px solid #E4E4E4;
+	margin-right: 10px;
+	position: relative;
+}
+.content-l .center {
+	position: absolute;
+	left: 103px;
+	top: 37px;
+}
+.content-l .left {
+	position: absolute;
+	left: 21px;
+	top: 87px;
+}
+.content-l .right {
+	position: absolute;
+	right: 21px;
+	top: 87px;
+}
+
+.content-c {
+	width: 373px;
+	height: 223px;
+	border: 1px solid #E4E4E4;
+	margin-right: 10px;
+}
+.content-c ul {
+	margin: auto 22px auto 22px;
+}
+.content-c ul li {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #DCDCDC; 
+}
+.content-c ul li a {
+	font-size: 14px;
+	color: #666666;
+}
+.content-c ul li a:hover {
+	text-decoration: underline;
+	color: #BFE449;
+}
+
+.content-r {
+	border: 1px solid #E4E4E4;
+	width: 268px;
+	height: 219px;
+}
+.content h4 {
+	height: 30px;
+	width: 300px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background: url(images/arrow.png) no-repeat left center;
+	padding-left: 23px;
+	line-height: 30px;
+	color: #7AB82A;
+}
+.content-r-t ul {
+	margin-left: 27px;
+	/*width: 240px;*/
+	height: 113px;
+}
+.content-r-t ul li {
+	line-height: 20px;
+
+}
+.content-r-t ul a {
+	border-left: 3px solid #98CB00;
+	font-size: 14px;
+	color: #666666;
+	padding-left: 10px;
+}
+.content-r p {
+	padding-left: 27px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+/*content部分E*/
+
+/*footer部分B*/
+.footer {
+	height: 306px;
+	background: #2D2D2D url(images/footerback.png) no-repeat;
+}
+.footer-t {
+	height: 219px;
+	border-bottom: 1px dashed #414141;
+}
+.footer-t-box {
+	width: 820px;
+	height: 206px;
+	/*background: pink;*/
+	margin: 0 auto;
+	padding-top: 14px;
+}
+.footer-t-box dl {
+	float: left;
+	width: 100px;
+}
+.footer-t-box dt {
+	height: 36px;
+	font-size: 14px;
+	
+}
+.footer-t-box dt a {
+	color: #C7C7C7;
+}
+
+.footer-t-box dd {
+	font-size: 12px;
+	line-height: 20px;
+}
+.footer-t-box dd a {
+	color: #707070;
+}
+.footer-b {
+	width: 610px;
+	height: 86px;
+	/*background: pink;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.footer-b p {
+	color: #000000;
+	font-size: 12px;
+	line-height: 30px;
+}
+/*footer部分E*/
